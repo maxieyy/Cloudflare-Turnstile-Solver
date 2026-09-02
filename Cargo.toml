@@ -1,0 +1,16 @@
+[package]
+name = "turnstile-solver"
+version = "3.2.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "turnstile-solver"
+path = "src/main.rs"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+opt-level = 3

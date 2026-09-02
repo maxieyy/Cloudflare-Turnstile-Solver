@@ -1,0 +1,7 @@
+services:
+  solver:
+    build: .
+    image: turnstile-solver
+    ports:
+      - "407-436:407"
+    restart: unless-stopped
