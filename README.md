@@ -131,7 +131,7 @@ That's all I can explain
 
 ## License
 
-MIT. See LICENSE.
+MIT. See [LICENSE](https://github.com/maxieyy/Cloudflare-Turnstile-Solver/blob/main/LICENSE).
 
 ---
 
